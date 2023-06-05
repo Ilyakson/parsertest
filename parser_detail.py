@@ -60,7 +60,6 @@ def parse_data(link):
         store = "official"
     except:
         store = "not official"
-    print(store)
     result = {
         "title": title,
         "brand": brand[1],
